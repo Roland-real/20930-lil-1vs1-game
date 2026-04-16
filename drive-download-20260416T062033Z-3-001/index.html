@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1v1 Combat Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="health-bar-container">
+            <div class="player-health-bar">
+                <div id="player1Health" class="health-fill"></div>
+            </div>
+            <div class="timer">
+                <span id="timer"></span>
+            </div>
+            <div class="player-health-bar">
+                <div id="player2Health" class="health-fill"></div>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div id="displayText" class="display-text"></div>
+        <button id="restartButton" class="restart-button">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
